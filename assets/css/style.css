@@ -1,0 +1,167 @@
+:root{
+    --banner-color:#1B2263;
+
+}
+
+
+
+.banner , footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--banner-color);
+    min-width:400px;
+}
+.name{
+background-color: #D9D9D9;
+padding: 5px;
+width: 15%;
+text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+    margin: 0 5px;
+    font-family:Jockey One,sans-serif;
+   
+}
+
+.hero-picture{
+    display: flex;
+    position: relative;
+    min-width:400px;
+}
+
+.hero-picture img{
+    flex: 1 1 200px;
+    max-height: 300px;  
+}
+
+.welcome-msg{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 1.2rem;
+    text-shadow: 1px -1px 1px white;
+}
+
+.about-me{
+    display: flex;
+    margin: 5px 0;
+    background: linear-gradient(180deg, #455D99 0%, rgba(69, 93, 153, 0) 100%);
+    min-width:400px;
+}
+
+.about-me h1{
+    border-right:5px solid black;
+    margin-right: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    flex: 1 0 70px;
+}
+.about-me p{
+    flex: 1 1 100%;
+}
+
+.work-session{
+    margin: 5px 0px;
+    display: flex;
+    min-width:400px;
+    flex: 1 1 300px;
+    /* border: 1px solid black; */
+    /* width: 100%; */
+}
+
+.work-heading{
+    border-right:5px solid black;
+    margin-right: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    flex: 1 0 70px;
+}
+
+.all-work{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    flex: 1 1 100%;
+}
+ .main-work-box{
+    flex: 1 1 300px;
+    min-width: 200px;
+    margin: 20px;
+    /* border: 1px solid black; */
+ }
+ 
+ .other-works-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin: 20px;
+ }
+ .other-works{
+    flex:1 1 200px;
+    margin: 20px;
+    /* min-width: 500px; */
+ }
+
+ @media screen and (min-width:560px){
+    .other-works{
+        flex:1 1 200px;
+        margin: 20px;
+        min-width: 400px;
+        max-width: 500px;
+    }
+
+ }
+ @media screen and (min-width:950px){
+    .other-works{
+        flex:1 1 200px;
+        margin: 20px;
+        min-width: 500px;
+    }
+ }
+
+ .main-work-box img{
+    height: 100%;
+    width: 100%; 
+ }
+ .other-works img{
+    height: 100%;
+    width: 100%;
+ }
+.contact-me{
+    display: flex;
+    margin: 5px 0;
+}
+ .contact-me h1{
+    border-right:5px solid black;
+    margin-right: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    flex: 1 0 70px;
+ }
+ .method{
+    display: flex;
+    flex: 1 1 100%;
+ }
+ .method div{
+    margin: 10px;
+ }
+ .method img {
+    max-width: 20px;
+    /* display: block; */
+ }
+ .method a , .method figcaption{
+    display: inline;
+    text-decoration: none;
+    color: black
+ }
+ footer{
+    display: block;
+    text-align: center;
+    color: white;
+ }
