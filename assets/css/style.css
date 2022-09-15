@@ -155,7 +155,7 @@ nav a {
  @media screen and (min-width:950px){
     .other-works{
         flex:1 1 200px;
-        margin: 20px;
+        margin: 40px 20px;
         min-width: 500px;
     }
  }
