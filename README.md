@@ -12,6 +12,10 @@ N/A
 
 visit to view portfolio of Ben Liu.
 
+https://benliu104.github.io/Portfolio/
+
+![alt text](./assets/website-screenshot.png)
+
 ## Credits
 
 https://github.com/BenLiu104
