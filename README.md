@@ -17,7 +17,7 @@ https://benliu104.github.io/Portfolio/
 ![alt text](./assets/website-screenshot.png)
 
 ## Credits
-
+Ben Liu:
 https://github.com/BenLiu104
 
 ## License
